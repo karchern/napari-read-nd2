@@ -8,4 +8,4 @@ contributions:
   readers:
     - command: napari-read-nd2.get_reader
       accepts_directories: false
-      filename_patterns: ['*.npy']
+      filename_patterns: ['*.nd2']
