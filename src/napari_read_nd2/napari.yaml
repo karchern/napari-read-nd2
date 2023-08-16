@@ -1,0 +1,11 @@
+name: napari-read-nd2
+display_name: barebone ND2 file reader
+contributions:
+  commands:
+    - id: napari-read-nd2.get_reader
+      python_name: napari_read_nd2._reader:napari_get_reader
+      title: Open data with barebone ND2 file reader
+  readers:
+    - command: napari-read-nd2.get_reader
+      accepts_directories: false
+      filename_patterns: ['*.npy']
