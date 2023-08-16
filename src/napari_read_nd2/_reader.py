@@ -67,7 +67,7 @@ def reader_function(path):
     #arrays = nd2.imread(path)
     #arrays =[nd2.imread(_path) for _path in paths]
     # stack arrays into single array
-    #data = np.squeeze(np.stack(arrays))
+    data = np.squeeze(np.stack(arrays))
 
     # optional kwargs for the corresponding viewer.add_* method
     add_kwargs = {}
