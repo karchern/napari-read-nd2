@@ -65,7 +65,7 @@ def reader_function(path):
     # load all files into array
     #arrays = [np.load(_path) for _path in paths]
     #arrays = nd2.imread(path)
-    #arrays =[nd2.imread(_path) for _path in paths]
+    arrays =[nd2.imread(_path) for _path in paths]
     # stack arrays into single array
     data = np.squeeze(np.stack(arrays))
 
